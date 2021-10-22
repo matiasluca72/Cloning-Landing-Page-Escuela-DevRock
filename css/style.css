@@ -1,0 +1,154 @@
+/* PALETA DE COLORES:
+  #303F9F Color primario Header */
+body {
+  color: #333;
+}
+
+/* HEADER STYLING */
+header {
+  background: #303f9f;
+  height: 78px;
+}
+
+/* CUSTOM STYLE FOR TEXTS */
+#letritas i {
+  color: #303f9f;
+}
+#letritas {
+  background: #f2f2f2;
+}
+
+/* HEADER ICON */
+.logoHeader {
+  width: 200px;
+  padding: 20px;
+}
+
+/* NAVBAR STYLING */
+nav ul {
+  float: right;
+  margin-right: 20px;
+  padding: 25px;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  padding: 10px;
+  color: whitesmoke;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* IMG IN COURSES CARDS */
+.pic__card {
+  margin: 10px;
+}
+
+/* STYLING */
+.pintadito {
+  background: #303f9f;
+  color: whitesmoke;
+  padding: 2px;
+  font-size: 30px;
+}
+
+/* MAIN SECTION STYLING */
+.splash {
+  background: url(../images/fondo.jpg) center center fixed;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+}
+.splash h1 {
+  background: black;
+  color: white;
+  display: inline-block;
+  padding: 10px;
+  font-size: 40px;
+}
+.splash h2 {
+  background: black;
+  color: white;
+  display: inline-block;
+  padding: 10px;
+}
+.text {
+  margin-top: 35vh;
+}
+.splash .btn {
+  background: #303f9f;
+  font-weight: bold;
+  color: whitesmoke;
+  font-size: 20px;
+}
+
+/* BUY BUTTON */
+.btnComprar {
+  display: block;
+  width: 60%;
+  margin: 0 auto;
+}
+
+/* CUSTOM STYLE FOR THE BOOTSTRAP CARD CLASS */
+.card {
+  /* border: #333 solid 2px;
+  border-radius: 5px; */
+  background-color: #f7f7f7;
+  box-shadow: 0px 1px #aaeae5;
+  border: 1px solid #aaeae5;
+  padding: 0px;
+  border-radius: 9px;
+  cursor: pointer;
+  margin-bottom: 50px;
+  height: 420px;
+  position: relative;
+}
+.contenido__card {
+  padding: 10px;
+}
+
+/* CUSTOM STYLE FOR THE CARRUSEL */
+.carrusel {
+  padding-bottom: 80px;
+}
+.carrusel img {
+  border-radius: 9px;
+}
+
+/* ALIGN CENTER */
+.centrado {
+  text-align: center;
+}
+
+/* CONTACT BACKGROUND */
+.contacto {
+  background: #999;
+}
+
+/* EXTRA SPACES UP AND DOWN */
+.espacios {
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+
+/* EXTRA PADDING AND STYLE FOR TEXTS */
+.frases h2 {
+  padding-bottom: 10px;
+}
+.frases i {
+  font-size: 80px;
+  padding-bottom: 10px;
+}
+
+/* FOOTER STYLING */
+footer {
+  background-color: #212121;
+  color: whitesmoke;
+}
+footer p {
+  font-family: "Lexend Mega", sans-serif;
+  text-align: right;
+  padding: 5px;
+  margin: 0;
+}
